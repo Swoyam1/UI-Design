@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: #F3F3F3;
+    font-family: 'Poppins';
+}
+
+.sidebar{
+    width: 40px;
+    position: fixed;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.mainContainer{
+    margin-left: 100px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

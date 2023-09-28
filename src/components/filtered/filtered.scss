@@ -1,0 +1,47 @@
+.filtered{
+    height: 350px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+
+    
+    .item{
+        padding: 15px;
+    }
+
+    .item.topbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p{
+            font-size: 15px;
+        }
+    }
+
+    .item.lists{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px;
+        
+
+        .list{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid lightgray;
+            font-size: 14px;
+            
+            .listContent{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+    }
+
+    
+}

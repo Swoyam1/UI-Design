@@ -1,0 +1,50 @@
+.sidebar{
+    padding: 14px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 15px;
+
+        .img{
+
+            img{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+            }
+        }
+        
+
+        .icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+        }
+
+        .icon:hover{
+            background-color: #E9EFFF;
+            border-radius: 5px;
+        }
+    }
+
+    .settings{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+    
+
+}

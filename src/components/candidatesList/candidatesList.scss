@@ -1,0 +1,74 @@
+.candidatesList{
+    .list{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+
+        .candidateIcon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+            width: 60px;
+            background-color: #EDF4FF;
+            border-radius: 50%;
+            font-size: larger;
+            color: #D0E1FF;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        .candidateDetails{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 8px;
+
+            .name{
+                font-size: 15px;
+                font-weight: bold;
+            }
+
+            .location{
+                font-size: 13px;
+                font-weight: bold;
+            }
+
+            .education{
+                font-size: 12px;
+            }
+
+            .hashtag{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 12px;
+                span{
+                    color: #1D4ED8;
+                }
+            }
+
+            .preferences{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                padding: 10px;
+                font-size: 12px;
+                font-weight: bolder;
+                .pref{
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 80px;
+                    height: 25px;
+                    color: #037092;
+                    background-color: #F3FAFC;
+                    border-radius: 70px;
+                }
+            }
+        }
+    }
+}

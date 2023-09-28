@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title{
+        cursor: pointer;
+        flex: 1;
+        font-weight: bolder;
+        color: #1D4ED8;
+        font-size: 18px;
+        margin-top: 20px;
+
+        p{
+            color: black;
+            font-weight: 500;
+        }
+    }
+    .items{
+        flex: 2;
+        display: flex;
+        align-items: center;
+
+        .dropdown{
+            flex: 1;
+            
+        }
+
+        .iconsDrop{
+            flex: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+    
+            .icon{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                width: 15px;
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+            
+        }
+
+        
+    }
+    
+}
